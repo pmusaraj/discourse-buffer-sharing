@@ -11,6 +11,7 @@ en:
       modal_title: "Share to Buffer"
       preview_label: "Post text"
       image_label: "Image"
+      no_image_warning: "Some Buffer channels require the topic to have an accompanying image."
       channels_label: "Channels"
       loading_channels: "Loading channels..."
       no_channels: "No channels found. Check your Buffer API token."

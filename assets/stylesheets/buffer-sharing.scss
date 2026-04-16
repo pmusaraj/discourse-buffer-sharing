@@ -27,6 +27,16 @@
     object-fit: cover;
   }
 
+  &__no-image-warning {
+    color: var(--primary-medium);
+    font-size: var(--font-down-1);
+    padding: 0.5em 0.75em;
+    border-left: 3px solid var(--tertiary-medium);
+    background: var(--tertiary-very-low);
+    border-radius: var(--d-border-radius);
+    margin: 0;
+  }
+
   &__channels {
     display: flex;
     flex-direction: column;

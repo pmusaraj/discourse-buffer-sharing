@@ -155,15 +155,19 @@ export default class BufferSharePreview extends Component {
             class="buffer-share-preview-modal__textarea"
           />
 
+          <label class="buffer-share-preview-modal__label">
+            {{i18n "buffer_sharing.image_label"}}
+          </label>
           {{#if this.imageUrl}}
-            <label class="buffer-share-preview-modal__label">
-              {{i18n "buffer_sharing.image_label"}}
-            </label>
             <img
               src={{this.imageUrl}}
               class="buffer-share-preview-modal__image"
               alt=""
             />
+          {{else}}
+            <p class="buffer-share-preview-modal__no-image-warning">
+              {{i18n "buffer_sharing.no_image_warning"}}
+            </p>
           {{/if}}
         </ConditionalLoadingSpinner>
 
