@@ -1,0 +1,7 @@
+plugins:
+  buffer_sharing_enabled:
+    default: false
+    client: true
+  buffer_api_token:
+    default: ""
+    secret: true

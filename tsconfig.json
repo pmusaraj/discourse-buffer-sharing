@@ -1,0 +1,16 @@
+{
+  "extends": "discourse/tsconfig-plugin",
+  "include": [
+    "admin/assets/javascripts/**/*",
+    "assets/javascripts/**/*",
+    "test/javascripts/**/*"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "discourse/plugins/discourse-buffer-sharing/*": ["./assets/javascripts/*"],
+      "discourse/plugins/discourse-buffer-sharing/admin/*": [
+        "./admin/assets/javascripts/admin/*"
+      ]
+    }
+  }
+}

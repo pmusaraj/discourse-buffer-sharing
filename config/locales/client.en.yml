@@ -1,0 +1,21 @@
+en:
+  admin_js:
+    admin:
+      site_settings:
+        categories:
+          plugins: "Plugins"
+  js:
+    buffer_sharing:
+      share_button: "Buffer"
+      admin_menu_label: "Share to Buffer"
+      modal_title: "Share to Buffer"
+      preview_label: "Post text"
+      image_label: "Image"
+      channels_label: "Channels"
+      loading_channels: "Loading channels..."
+      no_channels: "No channels found. Check your Buffer API token."
+      no_channels_selected: "Select at least one channel."
+      confirm: "Send to Buffer"
+      cancel: "Cancel"
+      success: "Topic sent to Buffer queue."
+      error: "Failed to share to Buffer. Please check your settings."

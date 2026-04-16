@@ -1,0 +1,47 @@
+.buffer-share-button {
+  order: -1;
+}
+
+.buffer-share-preview-modal {
+  &__label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+
+    &:not(:first-child) {
+      margin-top: 1em;
+    }
+  }
+
+  &__textarea {
+    width: 100%;
+    min-height: 180px;
+    resize: vertical;
+  }
+
+  &__image {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: var(--d-border-radius);
+    border: 1px solid var(--primary-low);
+    object-fit: cover;
+  }
+
+  &__channels {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  &__channel {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+  }
+
+  &__channel-service {
+    color: var(--primary-medium);
+    font-size: var(--font-down-1);
+  }
+}

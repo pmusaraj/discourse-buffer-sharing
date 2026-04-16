@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    buffer_sharing_enabled: "Enable sharing topics to social media via Buffer"
+    buffer_api_token: "Buffer API token (from publish.buffer.com/settings/api)"
