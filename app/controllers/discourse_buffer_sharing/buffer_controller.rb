@@ -88,10 +88,10 @@ module DiscourseBufferSharing
 
     def resolve_image_url(topic)
       raw = topic.image_url
-      if raw.blank? && SiteSetting.generate_topic_og_image && topic.og_image_upload
-        upload = topic.og_image_upload
-        raw = UrlHelper.cook_url(upload.url, secure: upload.secure?)
-      end
+      # if raw.blank? && SiteSetting.generate_topic_og_image && topic.og_image_upload
+      #   upload = topic.og_image_upload
+      #   raw = UrlHelper.cook_url(upload.url, secure: upload.secure?)
+      # end
       return nil if raw.blank?
       UrlHelper.absolute(raw)
     end

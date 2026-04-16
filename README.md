@@ -7,7 +7,7 @@ Share Discourse topics to your social media channels through the [Buffer](https:
 - Adds a **Buffer** button to the share-topic modal and a **Share to Buffer** entry to the topic admin menu (staff only).
 - Opens a preview modal where the title, excerpt, URL, and image are fetched from the server so the post text and image can be reviewed and edited before being queued.
 - Prefills the post text as `title` / excerpt (up to ~100 characters, wrapped in ellipses) / absolute topic URL.
-- Attaches the topic's image when present — either the first image in the OP or, if none exists and `generate_topic_og_image` is enabled, the generated OpenGraph image. This ensures image-required destinations like Pinterest accept the post.
+- Attaches the topic's image when present.
 - Lets staff pick which of their connected Buffer channels to queue the post to.
 
 ## Installation
